@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import { Button } from './components/Button'
+import './App.css'
+import CounterManagement  from './components/CounterManagement'
 
 function App() {
   return (
     <>
       <h1>My app</h1>
-      <Button type="primary"></Button>
+      <CounterManagement ownerName="Ninna"/>
     </>
   );
 }
